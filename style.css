@@ -16,19 +16,21 @@ html {
 }
 
 body {
+  padding: 2.4rem;
   line-height: 1;
   justify-content: center;
   background-color: #caf0f8;
 }
 
 body,
-section {
+.qr-section {
   display: flex;
 }
 
-section {
-  max-width: 16%;
+.qr-section {
   gap: 1.6rem;
+  width: 100%;
+  max-width: 26rem;
   margin: 18rem auto;
   align-items: center;
   flex-direction: column;
@@ -37,17 +39,17 @@ section {
 }
 
 img,
-section {
+.qr-section {
   border-radius: 1rem;
 }
 
 .text-container {
-  max-width: 95%;
+  width: 95%;
   text-align: center;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -63,3 +65,82 @@ p {
   line-height: 1.4;
   font-size: 1.2rem;
 }
+
+/* @media (max-width: 83.875em) {
+  .qr-section {
+    width: 20%;
+  }
+
+  h1 {
+    line-height: 1.2;
+    font-size: 1.5rem;
+    line-break: auto;
+  }
+  .text-container {
+    width: 90%;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 66.5em) {
+  .qr-section {
+    width: 24%;
+  }
+}
+
+@media (max-width: 55.35em) {
+  .qr-section {
+    width: 28%;
+  }
+}
+
+@media (max-width: 47.5em) {
+  .qr-section {
+    width: 34%;
+  }
+
+  h1 {
+    line-height: 1.3;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 39.0625em) {
+  .qr-section {
+    width: 40%;
+  }
+}
+
+@media (max-width: 33.25em) {
+  .qr-section {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 25.0625em) {
+  .qr-section {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+} */
