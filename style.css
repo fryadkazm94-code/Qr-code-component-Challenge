@@ -16,8 +16,8 @@ html {
 }
 
 body {
-  padding: 2.4rem;
   line-height: 1;
+  padding: 2.4rem;
   justify-content: center;
   background-color: #caf0f8;
 }
@@ -31,11 +31,12 @@ body,
   gap: 1.6rem;
   width: 100%;
   max-width: 26rem;
-  margin: 18rem auto;
+  margin: 15rem auto;
   align-items: center;
   flex-direction: column;
   background-color: #fff;
   padding: 1.2rem 1.2rem 3rem 1.2rem;
+  box-shadow: 0 0 5rem 3px rgba(58, 58, 58, 0.441);
 }
 
 img,
