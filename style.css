@@ -5,6 +5,11 @@
   scroll-behavior: smooth;
 }
 
+*::selection {
+  color: #ffffff;
+  background-color: #043c90;
+}
+
 html {
   font-size: 62.5%;
   font-family: "Outfit", sans-serif;
